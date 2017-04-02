@@ -1,0 +1,8 @@
+-> Commencer uniquement au premier saut
+-> Baisser le joueur
+-> Score qui évolue en fonction du temps et non des sauts
+-> Mouvement du joueur
+-> Affichage des ennemies (shuriken(haut) + animal ? (bas)
+-> Gestion de la mort et donc du restart
+-> Son tous les x score atteint
+-> Son à la mort
