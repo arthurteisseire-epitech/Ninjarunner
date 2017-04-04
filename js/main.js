@@ -8,15 +8,13 @@ var scoreText;
 var ninja = {
     preload: function () {
         //Chargement des images
-        game.load.image('sol', 'assets/herbe.png');
-        game.load.image('player', 'assets/player.png');
-        game.load.image('ciel', 'assets/ciel.png');
-
-
+        game.load.image('sol', 'assets/images/herbe.png');
+        game.load.image('ciel', 'assets/images/ciel.png');
+        game.load.spritesheet('anim', 'assets/sprites/fin.png', 120, 151, 20);
     },
+
     create: function () {
         //Setup du jeu + affichage
-
         game.physics.startSystem(Phaser.Physics.ARCADE);
         game.add.sprite(0, 0, 'ciel');
         game.physics.arcade.gravity.y = 1200;
@@ -24,13 +22,18 @@ var ninja = {
         bg = game.add.tileSprite(0, 385, 900, 156, 'sol');
         bgv = -5;
 
-        this.player = game.add.sprite(150, 370, 'player' );
+        this.player = game.add.sprite(300, 170, 'anim');
         this.player.anchor.set(0.5);
         game.physics.arcade.enable(this.player);
 
+        var animrun = this.player.animations.add('animrun');
+        this.player.animations.play('animrun', 20, true);
+        this.player.animations.currentAnim.setFrame(10, true);
+
         this.player.body.bounce.y = 0.2;
         this.player.body.collideWorldBounds = true;
-        this.player.body.setSize(800, 32, 5, 120);
+        this.player.body.setSize(800, 75, 20, 110);
+
 
         this.cursors= game.input.keyboard.createCursorKeys();
 
@@ -46,11 +49,36 @@ var ninja = {
             score += 10;
             scoreText.text = 'Score: ' + score;
         }
-
        bg.tilePosition.x += bgv;
 
     }
 };
+var menu = {
+    preload: function () {
+        // On charge les images
+        game.load.image('sol', 'assets/images/herbe.png');
+        game.load.image('player', 'assets/images/accueil.png');
+        game.load.image('ciel', 'assets/images/ciel.png');
+    },
+    create: function () {
+        // On ajoute les images pour le menu
+        game.add.sprite(0, 0, 'ciel');
+        bg = game.add.tileSprite(0, 385, 900, 156, 'sol');
+        this.player = game.add.sprite(150, 210, 'player');
 
+        //On insère du texte
+        var text = game.add.text(80, 80, 'NinjaRunner', {font: '50px Arial', fill:'#000000'});
+        var text2 = game.add.text(80, game.world.height-350, 'Appuyer sur ENTRER pour commencer !', {font: '25px Arial', fill:'#000000'});
+
+        // On lui demande d'appuyer sur une touche (Entrer)1
+        var key = game.input.keyboard.addKey(Phaser.Keyboard.ENTER);
+        key.onDown.addOnce(this.start, this);
+    },
+    start: function () {
+        game.state.start('ninja');
+    }
+};
 game.state.add('ninja', ninja);
-game.state.start('ninja');
+game.state.add('menu', menu);
+
+game.state.start('menu');

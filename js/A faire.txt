@@ -1,8 +1,16 @@
+-> "NinjaRunner" Jeu de runner
+-> Jeu infini avec score qui évolue selon les sauts et les accroupissements
+-> 2 Types d'action "Saut" et "Accroupissage"
+-> 2 Types de danger : Haut (shuriken) Bas (pics)
+-> Augmentation de la vitesse en fonction du temps
+
+
+
+
 -> Commencer uniquement au premier saut
 -> Baisser le joueur
--> Score qui évolue en fonction du temps et non des sauts
 -> Mouvement du joueur
--> Affichage des ennemies (shuriken(haut) + animal ? (bas)
+-> Affichage des ennemies (shuriken + pics)
 -> Gestion de la mort et donc du restart
 -> Son tous les x score atteint
 -> Son à la mort
