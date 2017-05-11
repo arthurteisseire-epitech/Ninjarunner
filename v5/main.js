@@ -1,7 +1,7 @@
 var game = new Phaser.Game(900, 506);
 var player;
 var mort = false;
-var over = false;
+var playerEstAuSol = false;
 var sol;
 var solV = -5;
 var shuriken;
@@ -68,19 +68,21 @@ var ninja = {
 
         if (mort == false) {
             //Positionnement du joueur
-            player.body.setSize(150, 230);
 
             //Mise en place des annimations selon la touche pressée
             if (this.cursors.right.isDown) {
                 player.animations.play('animattaque', 20, false);
-
+                player.body.setSize(40, 230, 70);
             }
-            else {
+            else
+            {
                 player.animations.play('animrun', 10, true);
+                player.body.setSize(40, 230, 70);
+
             }
 
 
-            if (this.cursors.up.isDown && over == true) {
+            if (this.cursors.up.isDown && playerEstAuSol) {
                 player.body.velocity.y = -600;
                 player.animations.play('animsaut', 10, false);
                 player.body.gravity.y = 2500;
@@ -97,10 +99,10 @@ var ninja = {
 
             // Gestion des colisions
             if (checkOverlap(player, sol)) {
-                over = true;
+                playerEstAuSol = true;
             }
 
-            game.physics.arcade.overlap(player, shuriken, test, null, this);
+            game.physics.arcade.overlap(player, shuriken, gameOver, null, this);
 
 
             // Défilement du sol
@@ -122,7 +124,7 @@ function checkOverlap(player, sol){
 
 }
 
-function test(){
+function gameOver(){
     player.animations.play('animmort', 10, false);
     mort = true;
     game.add.text(80, game.world.height - 350, 'Vous êtes mort 😞 Votre score est de ' + score + ' points !', {
