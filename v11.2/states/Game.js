@@ -57,7 +57,7 @@ var gameState = {
 
 
         //On créer le pique
-        pique = game.add.sprite(-64, 350, 'pique');
+        pique = game.add.sprite(-400, 350, 'pique');
         game.physics.arcade.enable(pique, Phaser.Physics.ARCADE);
         pique.body.allowGravity = false;
         pique.body.velocity.x = objectSpeed;
@@ -119,16 +119,21 @@ var gameState = {
                 player.animations.play('animglisse', 50, false);
             }
 
+
+            // On lance un pique ou un shuriken
             launchRandomObject();
+
 
             // Gestion des collisions
             game.physics.arcade.overlap(player, shuriken, waitForGameOver, null, this);
             game.physics.arcade.overlap(player, pique, waitForGameOver, null, this);
 
+
             // Défilement de la route
             route.tilePosition.x += routeV;
 
-            //Update du score et de la vitesse
+
+            // Mise à jour du score et de la vitesse
             updateScore();
             updateSpeed();
 
@@ -140,8 +145,7 @@ var gameState = {
     // Fonction pour afficher les hit box de collision
     render: function ()
     {
-
-        /*game.debug.body(player);
+         /*game.debug.body(player);
          game.debug.body(pique);
          game.debug.body(shuriken);
          game.debug.body(route);*/

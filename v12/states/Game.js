@@ -142,10 +142,10 @@ var gameState = {
     render: function ()
     {
 
-       /*  game.debug.body(player);
+         game.debug.body(player);
          game.debug.body(pique);
          game.debug.body(shuriken);
-         game.debug.body(route);*/
+         game.debug.body(route);
 
     }
 

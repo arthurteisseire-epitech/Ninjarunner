@@ -39,11 +39,11 @@ function launchRandomObject()
     if (interframe > limiteInterframe)
     {
         random = Math.round(Math.random() * 100);
-        if ((random % 2 == 0) && shuriken.x < 400 && pique.x < 400)
+        if ((random % 2 == 0) && shuriken.x < 300 && pique.x < 300)
         {
             launchPique();
         }
-        else if ((random % 2 == 1) && shuriken.x < 400 && pique.x < 400)
+        else if ((random % 2 == 1) && shuriken.x < 300 && pique.x < 300)
         {
             launchShuriken();
         }
@@ -64,7 +64,7 @@ function launchShuriken()
 
 function launchPique()
 {
-    pique = game.add.sprite(1300, 440,'pique');
+    pique = game.add.sprite(900, 440,'pique');
     game.physics.arcade.enable(pique, Phaser.Physics.ARCADE);
     pique.body.allowGravity = false;
     pique.body.velocity.x = objectSpeed;
