@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>NinjaRunner</title>
+
+  <script src="phaser.js"></script>
+  <script src="states/Boot.js"></script>
+  <script src="states/Preloader.js"></script>
+  <script src="states/Menu.js"></script>
+  <script src="states/Game.js"></script>
+  <script src="states/Functions.js"></script>
+  <script src="states/GameOver.js"></script>
+
+</head>
+
+<body>
+
+<script>
+  game = new Phaser.Game(903, 520, Phaser.CANVAS, '');
+  game.state.add('Boot', bootState);
+  game.state.add('Preloader', preloaderState);
+  game.state.add('Menu', menuState);
+  game.state.add('Game', gameState);
+  game.state.add('GameOver', gameOverState);
+  game.state.start('Boot');
+</script>
+  
+</body>
+</html>

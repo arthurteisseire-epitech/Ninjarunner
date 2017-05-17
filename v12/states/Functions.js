@@ -61,7 +61,7 @@ function launchShuriken()
     shuriken.animations.play('animshuriken', 20, true);
     shuriken.body.allowGravity = false;
     shuriken.body.velocity.x = objectSpeed;
-    shuriken.body.setSize(32, 32, 3, 5);
+  //      shuriken.body.setSize(32, 32);
 }
 
 
