@@ -51,7 +51,10 @@ function launchRandomObject()
         }
         else if ((random % 2 == 1) && shuriken.x < 300 && pique.x < 300)
         {
-            launchShuriken();
+            if (score > scoreToChangeBackground)
+            {
+                launchShuriken();
+            }
         }
         limiteInterframe = Math.round(Math.random()) * 150;
         interframe = 0;
