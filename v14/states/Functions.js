@@ -10,6 +10,7 @@ function initVariables()
     interframe = 0;
     vitesseJoueur = 10;
     vitesseShuriken = 10;
+    scoreToChangeBackground = 1400;
 }
 
 
@@ -26,6 +27,7 @@ function updateSpeed()
     interframeSpeed ++;
 }
 
+
 function updateScore()
 {
     if (compteur == 10)
@@ -36,8 +38,6 @@ function updateScore()
     }
     compteur ++;
 }
-
-
 
 
 function launchRandomObject()
@@ -82,6 +82,7 @@ function launchPique()
     pique.body.setSize(3, 64, 24);
 }
 
+
 function changeBackgroundBetweenScore(min, max)
 {
     if (score > min && score < max)
@@ -91,11 +92,18 @@ function changeBackgroundBetweenScore(min, max)
     }
 }
 
-function changeBackgroundOnGameOverAtScore(min)
+
+function changeBackgroundAtGameOver()
 {
-    if (score > min)
+    if (score > scoreToChangeBackground)
     {
         bgGameOver.visible = false;
+        bg2GameOver.visible = true;
+    }
+    else
+    {
+        bgGameOver.visible = true;
+        bg2GameOver.visible = false;
     }
 }
 

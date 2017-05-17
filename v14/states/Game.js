@@ -27,6 +27,7 @@ var bg;
 var bg2;
 var bgGameOver;
 var bg2GameOver;
+var scoreToChangeBackground;
 
 var gameState = {
 
@@ -140,7 +141,7 @@ var gameState = {
             updateScore();
             updateSpeed();
 
-            changeBackgroundBetweenScore(1200, 1500);
+            changeBackgroundBetweenScore(scoreToChangeBackground, 1500);
 
         }
 

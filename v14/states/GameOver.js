@@ -7,7 +7,8 @@ var gameOverState = {
         bgGameOver = game.add.sprite(0, 0, 'bg');
         game.add.tileSprite(0, 480, 900, 40, 'route');
 
-        changeBackgroundOnGameOverAtScore(1200);
+
+        changeBackgroundAtGameOver();
 
         if (score >= meilleurScore)
         {
