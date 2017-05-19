@@ -60,7 +60,7 @@ var gameState = {
 
 
         //On créer l'ennemie
-        enemy = game.add.sprite(300, 50, 'enemy');
+        enemy = game.add.sprite(-900, -900, 'enemy');
         game.physics.arcade.enable(enemy, Phaser.Physics.ARCADE);
         enemy.body.gravity.y = 5500;
         enemy.body.collideWorldBounds = true;
@@ -148,6 +148,7 @@ var gameState = {
             //Update du score et de la vitesse
             updateScore();
             updateSpeed();
+
 
             changeBackgroundBetweenScore(scoreToChangeBackground, scoreToChangeBackground + 200);
 

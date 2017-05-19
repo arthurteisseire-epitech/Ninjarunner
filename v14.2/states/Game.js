@@ -29,6 +29,7 @@ var bgGameOver;
 var bg2GameOver;
 var scoreToChangeBackground;
 
+
 var gameState = {
 
     create: function ()
@@ -56,6 +57,13 @@ var gameState = {
         player.body.gravity.y = 5500;
         player.body.setSize(80, 110, 35, 15);
         player.body.collideWorldBounds = true;
+
+
+        //On créer l'ennemie
+        enemy = game.add.sprite(300, 50, 'enemy');
+        game.physics.arcade.enable(enemy, Phaser.Physics.ARCADE);
+        enemy.body.gravity.y = 5500;
+        enemy.body.collideWorldBounds = true;
 
 
         //On créer le shuriken
@@ -113,7 +121,7 @@ var gameState = {
             else
             {
                 player.animations.play('animrun', vitesseJoueur, true);
-                player.body.setSize(80,110, 35, 15);
+                player.body.setSize(80, 110, 35, 15);
             }
 
             if (this.cursors.up.isDown && player.body.onFloor())

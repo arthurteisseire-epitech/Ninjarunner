@@ -10,7 +10,7 @@ function initVariables()
     interframe = 0;
     vitesseJoueur = 10;
     vitesseShuriken = 10;
-    scoreToChangeBackground = 1400;
+    scoreToChangeBackground = 2200;
 }
 
 
@@ -51,7 +51,10 @@ function launchRandomObject()
         }
         else if ((random % 2 == 1) && shuriken.x < 300 && pique.x < 300)
         {
-            launchShuriken();
+			if (score > scoreToChangeBackground)
+			{
+            	launchShuriken();
+			}
         }
         limiteInterframe = Math.round(Math.random()) * 150;
         interframe = 0;
@@ -80,6 +83,16 @@ function launchPique()
     pique.body.allowGravity = false;
     pique.body.velocity.x = objectSpeed;
     pique.body.setSize(3, 64, 24);
+}
+
+
+function launchEnemy()
+{
+    enemy = game.add.sprite(900, 390,'enemy');
+    game.physics.arcade.enable(enemy, Phaser.Physics.ARCADE);
+    enemy.body.allowGravity = true;
+    enemy.body.velocity.x = objectSpeed;
+    enemy.body.setSize(100, 100);
 }
 
 

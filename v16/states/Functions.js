@@ -141,14 +141,14 @@ function gameOver()
     player.animations.play('animmort', 10, false);
     bgSound.pause();
     mortSound.play();
-    game.time.events.add(Phaser.Timer.SECOND * 1, waitForGameOver, this);
+    game.time.events.add(Phaser.Timer.SECOND * 1, startGameOver, this);
     mort = true;
     pique.body.velocity.x = 0;
     shuriken.body.velocity.x = 0;
 }
 
 
-function waitForGameOver()
+function startGameOver()
 {
     game.state.start('GameOver');
 }

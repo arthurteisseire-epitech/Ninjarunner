@@ -28,7 +28,8 @@ var bg2;
 var bg3;
 var bgGameOver;
 var bg2GameOver;
-var scoreToChangeBackground;
+var scoreToChangeBackground1;
+var scoreToChangeBackground2;
 
 
 var gameState = {
@@ -62,10 +63,9 @@ var gameState = {
 
 
         //On créer l'ennemie
-      /*  enemy = game.add.sprite(300, 50, 'enemy');
+        enemy = game.add.sprite(-900, 400, 'enemy');
         game.physics.arcade.enable(enemy, Phaser.Physics.ARCADE);
-        enemy.body.gravity.y = 5500;
-        enemy.body.collideWorldBounds = true;*/
+        enemy.body.velocity.x = objectSpeed;
 
 
         //On créer le shuriken
@@ -123,7 +123,7 @@ var gameState = {
             else
             {
                 player.animations.play('animrun', vitesseJoueur, true);
-                player.body.setSize(80,110, 35, 15);
+                player.body.setSize(80, 110, 35, 15);
             }
 
             if (this.cursors.up.isDown && player.body.onFloor())
@@ -134,15 +134,16 @@ var gameState = {
 
             if (this.cursors.down.isDown)
             {
-                player.body.setSize(100, 90, 20, 30);
+                player.body.setSize(100, 80, 20, 30);
                 player.animations.play('animglisse', 50, false);
             }
 
             launchRandomObject();
 
             // Gestion des collisions
-           // game.physics.arcade.overlap(player, shuriken, waitForGameOver, null, this);
+            game.physics.arcade.overlap(player, shuriken, gameOver, null, this);
             game.physics.arcade.overlap(player, pique, gameOver, null, this);
+            game.physics.arcade.overlap(player, enemy, eventEnemy, null, this);
 
             // Défilement de la route
             route.tilePosition.x += routeV;
@@ -151,8 +152,8 @@ var gameState = {
             updateScore();
             updateSpeed();
 
-            changeBackgroundBetweenScore(scoreToChangeBackground, scoreToChangeBackground + 200);
-            changeBackgroundAfter(8000);
+            changeBackgroundBetweenScore(scoreToChangeBackground1, scoreToChangeBackground1 + 200);
+            changeBackgroundAfter(scoreToChangeBackground2);
 
         }
 
@@ -162,11 +163,11 @@ var gameState = {
     // Fonction pour afficher les hit box de collision
     render: function ()
     {
-
-       /*  game.debug.body(player);
+         /*game.debug.body(player);
          game.debug.body(pique);
          game.debug.body(shuriken);
-         game.debug.body(route);*/
+         game.debug.body(route);
+         game.debug.body(enemy);*/
 
     }
 

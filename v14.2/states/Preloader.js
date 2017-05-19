@@ -8,6 +8,7 @@ var preloaderState = {
         game.load.image('bg2', 'assets/images/bg2.jpg');
         //  game.load.image('shuriken', 'assets/images/shuriken.png');
         game.load.image('pique', 'assets/images/pique.png');
+        game.load.image('enemy', 'assets/images/enemy.png');
         game.load.spritesheet('player', 'assets/sprites/anim.png', 150, 139, 60);
         game.load.spritesheet('shuriken', 'assets/sprites/animshuriken.png', 40, 40);
         game.load.audio('bgsound', 'assets/audio/bgsound.mp3');

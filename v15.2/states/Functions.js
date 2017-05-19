@@ -10,7 +10,8 @@ function initVariables()
     interframe = 0;
     vitesseJoueur = 10;
     vitesseShuriken = 10;
-    scoreToChangeBackground = 2400;
+    scoreToChangeBackground1 = 2400;
+    scoreToChangeBackground2 = 8000;
 }
 
 
@@ -20,8 +21,8 @@ function updateSpeed()
     {
         routeV -= 0.05;
         objectSpeed = routeV * 50;
-        vitesseJoueur = -routeV * 1;
-        vitesseShuriken = -routeV * 1;
+        vitesseJoueur = -routeV;
+        vitesseShuriken = -routeV;
         interframeSpeed = 0;
     }
     interframeSpeed ++;
@@ -44,19 +45,26 @@ function launchRandomObject()
 {
     if (interframe > limiteInterframe)
     {
-        random = Math.round(Math.random() * 100);
-        if ((random % 2 == 0) && shuriken.x < 300 && pique.x < 300)
+        random = Math.round(Math.random() * 300);
+        if ((random % 3 == 0) && shuriken.x < 300 && pique.x < 300 && enemy.x < 300)
         {
             launchPique();
         }
-        else if ((random % 2 == 1) && shuriken.x < 300 && pique.x < 300)
+        else if ((random % 3 == 1) && shuriken.x < 300 && pique.x < 300 && enemy.x < 300)
         {
-            if (score > scoreToChangeBackground)
+            if (score > scoreToChangeBackground1)
             {
                 launchShuriken();
             }
         }
-        limiteInterframe = Math.round(Math.random()) * 150;
+        else if ((random % 3 == 2) && shuriken.x < 300 && pique.x < 300 && enemy.x < 300)
+        {
+            if (score > scoreToChangeBackground2)
+            {
+                launchEnemy();
+            }
+        }
+        limiteInterframe = Math.round(Math.random()) * 70;
         interframe = 0;
     }
     interframe ++;
@@ -86,6 +94,28 @@ function launchPique()
 }
 
 
+function launchEnemy()
+{
+    enemy = game.add.sprite(900, 400, 'enemy');
+    game.physics.arcade.enable(enemy, Phaser.Physics.ARCADE);
+    pique.body.allowGravity = false;
+    enemy.body.velocity.x = objectSpeed;
+}
+
+
+function eventEnemy()
+{
+    if (this.cursors.right.isDown && game.physics.arcade.overlap(player, enemy))
+    {
+        enemy.alpha = 0;
+    }
+    else
+    {
+        gameOver();
+    }
+}
+
+
 function changeBackgroundBetweenScore(min, max)
 {
     if (score > min && score < max)
@@ -101,7 +131,7 @@ function changeBackgroundAfter(min)
     if (score > min)
     {
         bg2.visible = false;
-        routeV = -3;
+        routeV = -9;
     }
 
 }
