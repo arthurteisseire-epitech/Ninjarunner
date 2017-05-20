@@ -10,6 +10,7 @@ var rulesState = {
         game.add.text(20, 20, 'Saut  : Fleche  du  haut / Espace', {font: '25px njnaruto', fill:'#FFFFFF'});
         game.add.text(20, 70, 'Glisse  :  Fleche  du  bas', {font: '25px njnaruto', fill:'#FFFFFF'});
         game.add.text(20, 120, 'Attaque  :  Fleche  de  droite', {font: '25px njnaruto', fill:'#FFFFFF'});
+        game.add.text(420, 470, 'Espace  pour  revenir  au  Menu', {font: '25px njnaruto', fill:'#FFFFFF'});
 
         // On lui demande d'appuyer sur une touche (Entrer)1
         var spaceKey = game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);

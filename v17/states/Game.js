@@ -139,9 +139,11 @@ var gameState = {
             launchRandomObject();
 
             // Gestion des collisions
+            /*
             game.physics.arcade.overlap(player, shuriken, gameOver, null, this);
             game.physics.arcade.overlap(player, pique, gameOver, null, this);
             game.physics.arcade.overlap(player, enemy, eventEnemy, null, this);
+            */
 
             // Défilement de la route
             route.tilePosition.x += routeV;
