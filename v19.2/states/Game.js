@@ -25,6 +25,8 @@ var animsaut;
 var animattaque;
 var animmort;
 var animshuriken;
+var animfumee;
+var fumee;
 var vitesseJoueur;
 var vitesseShuriken;
 var bgMenu;
@@ -56,8 +58,9 @@ var gameState = {
     {
         if (mort == false)
         {
-            //Mise en place des annimations selon la touche pressée
+            launchRandomObject();
 
+            //Mise en place des annimations selon la touche pressée
             if (this.cursors.right.isDown)
             {
                 player.animations.play('animattaque', 20, false);
@@ -81,10 +84,8 @@ var gameState = {
                 player.animations.play('animglisse', 50, false);
             }
 
-            launchRandomObject();
 
             // Gestion des collisions
-
             game.physics.arcade.overlap(player, shuriken, gameOver, null, this);
             game.physics.arcade.overlap(player, pique, gameOver, null, this);
             game.physics.arcade.overlap(player, doublePique, gameOver, null, this);
@@ -92,11 +93,11 @@ var gameState = {
             game.physics.arcade.overlap(player, enemy, eventEnemy, null, this);
 
 
-
             // Défilement de la route
             route.tilePosition.x += routeV;
             terre.tilePosition.x += routeV;
             pont.tilePosition.x += routeV;
+
 
             //Update du score et de la vitesse
             updateScore();
@@ -113,7 +114,7 @@ var gameState = {
     // Fonction pour afficher les hit box de collision
     render: function ()
     {
-        /*
+		/*
          game.debug.body(player);
          game.debug.body(pique);
          game.debug.body(doublePique);
@@ -121,7 +122,7 @@ var gameState = {
          game.debug.body(shuriken);
          game.debug.body(route);
          game.debug.body(enemy);
-        */
+		 */
     }
 
 };

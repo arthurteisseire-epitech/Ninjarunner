@@ -15,11 +15,11 @@ var preloaderState = {
         game.load.image('pique', 'assets/images/pique.png');
         game.load.image('doublePique', 'assets/images/doublePique.png');
         game.load.image('triplePique', 'assets/images/triplePique.png');
-        game.load.spritesheet('player', 'assets/sprites/anim.png', 150, 139, 60);
         game.load.image('enemy', 'assets/images/enemy.png');
-        game.load.spritesheet('shuriken', 'assets/sprites/animshuriken.png', 40, 40);
         game.load.audio('bgsound', 'assets/audio/bgsound.mp3');
         game.load.audio('mortsound', 'assets/audio/mort.mp3');
+        game.load.spritesheet('player', 'assets/sprites/anim.png', 150, 139, 60);
+        game.load.spritesheet('shuriken', 'assets/sprites/animshuriken.png', 40, 40);
 
         game.stage.backgroundColor = "#FFFFFF";
         var bar_vide = game.add.sprite(200,200, 'bar_vide');

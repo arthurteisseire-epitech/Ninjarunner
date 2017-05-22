@@ -109,20 +109,5 @@ var gameState = {
 
             win();
         }
-    },
-
-    // Fonction pour afficher les hit box de collision
-    render: function ()
-    {
-		/*
-         game.debug.body(player);
-         game.debug.body(pique);
-         game.debug.body(doublePique);
-         game.debug.body(triplePique);
-         game.debug.body(shuriken);
-         game.debug.body(route);
-         game.debug.body(enemy);
-		 */
     }
-
 };

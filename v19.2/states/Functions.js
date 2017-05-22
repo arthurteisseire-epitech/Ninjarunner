@@ -234,7 +234,7 @@ function createAllElements()
     player.body.collideWorldBounds = true;
 
     //Création de l'ennemie
-    enemy = game.add.sprite(-900, 400, 'enemy');
+    enemy = game.add.sprite(-900, 390, 'enemy');
     game.physics.arcade.enable(enemy, Phaser.Physics.ARCADE);
     enemy.body.velocity.x = objectSpeed;
 
@@ -271,6 +271,7 @@ function createAllElements()
     animsaut = player.animations.add('animsaut', [20,21,22,23,24,25,26,27,28,29]);
     animattaque = player.animations.add('animattaque', [30,31,32,33,34,35,36,37,38,39]);
     animmort = player.animations.add('animmort', [50,51,52,53,54,55,56,57,58,59]);
+
 
     //Création du son
     bgSound = game.add.audio('bgsound');

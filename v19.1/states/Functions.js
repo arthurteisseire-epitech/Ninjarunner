@@ -47,7 +47,7 @@ function launchRandomObject()
     {
         random = Math.round(Math.random() * 300);
         var randomNumberPique = Math.round(Math.random() * 300);
-        if ((random % 3 == 0) && shuriken.x < 300 && pique.x < 300 && doublePique.x < 300 && triplePique.x < 300 && enemy.x < 300)
+        if ((random % 3 == 0) && pique.x < 300 && doublePique.x < 300 && triplePique.x < 300 && shuriken.x < 300 && enemy.x < 300)
         {
             if (randomNumberPique % 5 == 0 && routeV < -7.5)
             {
@@ -62,14 +62,14 @@ function launchRandomObject()
                 launchPique();
             }
         }
-        else if ((random % 3 == 1) && shuriken.x < 300 && pique.x < 300 && doublePique.x < 300 && triplePique.x < 300 && enemy.x < 300)
+        else if ((random % 3 == 1) && pique.x < 300 && doublePique.x < 300 && triplePique.x < 300 && shuriken.x < 300 && enemy.x < 300)
         {
             if (score > scoreToChangeBackground1)
             {
                 launchShuriken();
             }
         }
-        else if ((random % 3 == 2) && shuriken.x < 300 && pique.x < 300 && doublePique.x < 300 && triplePique.x < 300 && enemy.x < 300)
+        else if ((random % 3 == 2) && pique.x < 300 && doublePique.x < 300 && triplePique.x < 300 && shuriken.x < 300 && enemy.x < 300)
         {
             if (score > scoreToChangeBackground2)
             {
@@ -184,19 +184,23 @@ function gameOver()
     game.time.events.add(Phaser.Timer.SECOND * 1, startGameOver, this);
     mort = true;
     pique.body.velocity.x = 0;
-    shuriken.body.velocity.x = 0;
-}
-
-function win(){
-    if(score > 2810){
-        game.state.start('Win');
-    }
+    doublePique.body.velocity.x = 0;
+    triplePique.body.velocity.x = 0;
 }
 
 
 function startGameOver()
 {
     game.state.start('GameOver');
+}
+
+
+function win()
+{
+    if(score > 2810)
+    {
+        game.state.start('Win');
+    }
 }
 
 

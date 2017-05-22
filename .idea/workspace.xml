@@ -2,497 +2,143 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9eb80b92-2537-422e-8c3b-87533e2cb27d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascript/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascript/v4/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascript/v4/assets/images/accueil.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascript/v4/assets/images/ciel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascript/v4/assets/images/herbe.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascript/v4/assets/images/shuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascript/v4/assets/sprites/anim.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascript/v4/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascript/v4/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascript/v4/phaser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.0/assets/audio/bgsound.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.0/assets/audio/mort.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.0/assets/images/accueil.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.0/assets/images/bar_pleine.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.0/assets/images/bar_vide.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.0/assets/images/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.0/assets/images/pique.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.0/assets/images/route.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.0/assets/images/shuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.0/assets/sprites/anim.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.0/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.0/phaser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.0/states/Boot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.0/states/Game.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.0/states/GameOver.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.0/states/Menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.0/states/Preloader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.0/states/functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.1/assets/audio/bgsound.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.1/assets/audio/mort.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.1/assets/images/accueil.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.1/assets/images/bar_pleine.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.1/assets/images/bar_vide.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.1/assets/images/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.1/assets/images/pique.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.1/assets/images/route.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.1/assets/images/shuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.1/assets/sprites/anim.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.1/phaser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.1/states/Boot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.1/states/Functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.1/states/Game.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.1/states/GameOver.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.1/states/Menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.1/states/Preloader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.2/assets/audio/bgsound.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.2/assets/audio/mort.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.2/assets/images/accueil.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.2/assets/images/bar_pleine.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.2/assets/images/bar_vide.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.2/assets/images/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.2/assets/images/pique.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.2/assets/images/route.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.2/assets/images/shuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.2/assets/sprites/anim.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.2/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.2/phaser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.2/states/Boot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.2/states/Functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.2/states/Game.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.2/states/GameOver.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.2/states/Menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v10.2/states/Preloader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11.1/assets/audio/bgsound.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11.1/assets/audio/mort.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11.1/assets/images/accueil.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11.1/assets/images/bar_pleine.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11.1/assets/images/bar_vide.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11.1/assets/images/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11.1/assets/images/pique.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11.1/assets/images/route.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11.1/assets/images/shuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11.1/assets/sprites/anim.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11.1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11.1/phaser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11.1/states/Boot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11.1/states/Functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11.1/states/Game.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11.1/states/GameOver.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11.1/states/Menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11.1/states/Preloader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11.2/assets/audio/bgsound.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11.2/assets/audio/mort.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11.2/assets/images/accueil.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11.2/assets/images/bar_pleine.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11.2/assets/images/bar_vide.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11.2/assets/images/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11.2/assets/images/pique.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11.2/assets/images/route.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11.2/assets/images/shuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11.2/assets/sprites/anim.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11.2/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11.2/phaser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11.2/states/Boot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11.2/states/Functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11.2/states/Game.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11.2/states/GameOver.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11.2/states/Menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11.2/states/Preloader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11/assets/audio/bgsound.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11/assets/audio/mort.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11/assets/images/accueil.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11/assets/images/bar_pleine.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11/assets/images/bar_vide.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11/assets/images/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11/assets/images/pique.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11/assets/images/route.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11/assets/images/shuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11/assets/sprites/anim.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11/phaser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11/states/Boot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11/states/Functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11/states/Game.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11/states/GameOver.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11/states/Menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v11/states/Preloader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v12/assets/audio/bgsound.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v12/assets/audio/mort.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v12/assets/images/accueil.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v12/assets/images/bar_pleine.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v12/assets/images/bar_vide.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v12/assets/images/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v12/assets/images/pique.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v12/assets/images/route.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v12/assets/images/shuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v12/assets/sprites/anim.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v12/assets/sprites/animshuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v12/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v12/phaser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v12/states/Boot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v12/states/Functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v12/states/Game.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v12/states/GameOver.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v12/states/Menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v12/states/Preloader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v13/assets/audio/bgsound.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v13/assets/audio/mort.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v13/assets/images/accueil.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v13/assets/images/bar_pleine.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v13/assets/images/bar_vide.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v13/assets/images/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v13/assets/images/pique.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v13/assets/images/route.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v13/assets/images/shuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v13/assets/sprites/anim.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v13/assets/sprites/animshuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v13/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v13/phaser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v13/states/Boot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v13/states/Functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v13/states/Game.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v13/states/GameOver.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v13/states/Menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v13/states/Preloader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14.2/assets/audio/bgsound.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14.2/assets/audio/mort.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14.2/assets/images/accueil.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14.2/assets/images/bar_pleine.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14.2/assets/images/bar_vide.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14.2/assets/images/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14.2/assets/images/bg2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14.2/assets/images/pique.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14.2/assets/images/route.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14.2/assets/images/shuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14.2/assets/sprites/anim.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14.2/assets/sprites/animshuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14.2/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14.2/phaser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14.2/states/Boot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14.2/states/Functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14.2/states/Game.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14.2/states/GameOver.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14.2/states/Menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14.2/states/Preloader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14/assets/audio/bgsound.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14/assets/audio/mort.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14/assets/images/accueil.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14/assets/images/bar_pleine.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14/assets/images/bar_vide.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14/assets/images/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14/assets/images/bg2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14/assets/images/pique.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14/assets/images/route.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14/assets/images/shuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14/assets/sprites/anim.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14/assets/sprites/animshuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14/phaser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14/states/Boot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14/states/Functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14/states/Game.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14/states/GameOver.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14/states/Menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v14/states/Preloader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.1/assets/audio/bgsound.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.1/assets/audio/mort.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.1/assets/images/accueil.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.1/assets/images/bar_pleine.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.1/assets/images/bar_vide.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.1/assets/images/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.1/assets/images/bg2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.1/assets/images/enemy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.1/assets/images/pique.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.1/assets/images/route.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.1/assets/images/shuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.1/assets/sprites/anim.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.1/assets/sprites/animshuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.1/phaser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.1/states/Boot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.1/states/Functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.1/states/Game.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.1/states/GameOver.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.1/states/Menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.1/states/Preloader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.2/assets/audio/bgsound.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.2/assets/audio/mort.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.2/assets/images/accueil.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.2/assets/images/bar_pleine.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.2/assets/images/bar_vide.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.2/assets/images/bg1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.2/assets/images/bg2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.2/assets/images/bg3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.2/assets/images/enemy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.2/assets/images/pique.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.2/assets/images/route.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.2/assets/images/shuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.2/assets/sprites/anim.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.2/assets/sprites/animshuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.2/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.2/phaser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.2/states/Boot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.2/states/Functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.2/states/Game.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.2/states/GameOver.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.2/states/Menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v15.2/states/Preloader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16.1/assets/audio/bgsound.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16.1/assets/audio/mort.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16.1/assets/images/accueil.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16.1/assets/images/bar_pleine.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16.1/assets/images/bar_vide.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16.1/assets/images/bg1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16.1/assets/images/bg2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16.1/assets/images/bg3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16.1/assets/images/enemy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16.1/assets/images/pique.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16.1/assets/images/route.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16.1/assets/images/shuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16.1/assets/sprites/anim.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16.1/assets/sprites/animshuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16.1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16.1/phaser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16.1/states/Boot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16.1/states/Functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16.1/states/Game.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16.1/states/GameOver.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16.1/states/Menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16.1/states/Preloader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16/assets/audio/bgsound.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16/assets/audio/mort.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16/assets/images/accueil.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16/assets/images/bar_pleine.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16/assets/images/bar_vide.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16/assets/images/bg1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16/assets/images/bg2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16/assets/images/bg3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16/assets/images/enemy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16/assets/images/pique.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16/assets/images/route.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16/assets/images/shuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16/assets/sprites/anim.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16/assets/sprites/animshuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16/phaser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16/states/Boot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16/states/Functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16/states/Game.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16/states/GameOver.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16/states/Menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v16/states/Preloader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.2/assets/audio/bgsound.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.2/assets/audio/mort.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.2/assets/images/accueil.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.2/assets/images/bar_pleine.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.2/assets/images/bar_vide.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.2/assets/images/bg1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.2/assets/images/bg2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.2/assets/images/bg3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.2/assets/images/bgGameOver.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.2/assets/images/enemy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.2/assets/images/pique.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.2/assets/images/route.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.2/assets/images/shuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.2/assets/sprites/anim.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.2/assets/sprites/animshuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.2/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.2/phaser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.2/states/Boot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.2/states/Functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.2/states/Game.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.2/states/GameOver.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.2/states/Menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.2/states/Preloader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.2/states/Win.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.4/assets/audio/bgsound.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.4/assets/audio/mort.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.4/assets/css/fontLoader.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.4/assets/font/njnaruto.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.4/assets/images/accueil.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.4/assets/images/bar_pleine.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.4/assets/images/bar_vide.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.4/assets/images/bg1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.4/assets/images/bg2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.4/assets/images/bg3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.4/assets/images/bgGameOver.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.4/assets/images/bgWin.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.4/assets/images/enemy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.4/assets/images/pique.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.4/assets/images/pont.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.4/assets/images/route.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.4/assets/images/shuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.4/assets/images/terre.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.4/assets/sprites/anim.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.4/assets/sprites/animshuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.4/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.4/phaser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.4/states/Boot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.4/states/Functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.4/states/Game.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.4/states/GameOver.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.4/states/Menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.4/states/Preloader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.4/states/Win.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.6/assets/audio/bgsound.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.6/assets/audio/mort.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.6/assets/css/fontLoader.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.6/assets/font/njnaruto.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.6/assets/images/accueil.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.6/assets/images/bar_pleine.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.6/assets/images/bar_vide.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.6/assets/images/bg1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.6/assets/images/bg2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.6/assets/images/bg3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.6/assets/images/bgGameOver.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.6/assets/images/bgWin.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.6/assets/images/enemy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.6/assets/images/pique.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.6/assets/images/pont.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.6/assets/images/route.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.6/assets/images/shuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.6/assets/images/terre.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.6/assets/sprites/anim.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.6/assets/sprites/animshuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.6/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.6/phaser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.6/states/Boot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.6/states/Functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.6/states/Game.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.6/states/GameOver.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.6/states/Menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.6/states/Preloader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.6/states/Win.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.7/assets/audio/bgsound.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.7/assets/audio/mort.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.7/assets/css/fontLoader.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.7/assets/font/njnaruto.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.7/assets/images/accueil.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.7/assets/images/bar_pleine.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.7/assets/images/bar_vide.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.7/assets/images/bg1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.7/assets/images/bg2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.7/assets/images/bg3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.7/assets/images/bgGameOver.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.7/assets/images/bgMenu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.7/assets/images/bgWin.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.7/assets/images/enemy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.7/assets/images/pique.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.7/assets/images/pont.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.7/assets/images/route.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.7/assets/images/shuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.7/assets/images/terre.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.7/assets/sprites/anim.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.7/assets/sprites/animshuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.7/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.7/phaser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.7/states/Boot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.7/states/Functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.7/states/Game.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.7/states/GameOver.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.7/states/Menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.7/states/Preloader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.7/states/Rules.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v17.7/states/Win.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v5.1/assets/images/accueil.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v5.1/assets/images/ciel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v5.1/assets/images/herbe.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v5.1/assets/images/pique.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v5.1/assets/images/shuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v5.1/assets/sprites/anim.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v5.1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v5.1/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v5.1/phaser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v5/assets/images/accueil.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v5/assets/images/ciel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v5/assets/images/herbe.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v5/assets/images/shuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v5/assets/sprites/anim.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v5/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v5/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v5/phaser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v6/assets/images/accueil.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v6/assets/images/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v6/assets/images/pique.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v6/assets/images/route.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v6/assets/images/shuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v6/assets/sprites/anim.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v6/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v6/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v6/phaser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v7/assets/images/accueil.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v7/assets/images/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v7/assets/images/pique.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v7/assets/images/route.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v7/assets/images/shuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v7/assets/sprites/anim.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v7/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v7/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v7/phaser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v8.1/assets/images/accueil.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v8.1/assets/images/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v8.1/assets/images/pique.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v8.1/assets/images/route.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v8.1/assets/images/shuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v8.1/assets/sprites/anim.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v8.1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v8.1/phaser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v8.1/states/Boot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v8.1/states/Game.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v8.1/states/GameOver.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v8.1/states/Menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v8.1/states/Preloader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v8/assets/images/accueil.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v8/assets/images/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v8/assets/images/pique.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v8/assets/images/route.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v8/assets/images/shuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v8/assets/sprites/anim.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v8/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v8/phaser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v8/states/Boot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v8/states/Game.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v8/states/GameOver.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v8/states/Menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v8/states/Preloader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v9.0/assets/audio/bgsound.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v9.0/assets/audio/mort.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v9.0/assets/images/accueil.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v9.0/assets/images/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v9.0/assets/images/pique.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v9.0/assets/images/route.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v9.0/assets/images/shuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v9.0/assets/sprites/anim.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v9.0/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v9.0/phaser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v9.0/states/Boot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v9.0/states/Game.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v9.0/states/GameOver.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v9.0/states/Menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v9.0/states/Preloader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v9.05/assets/audio/bgsound.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v9.05/assets/audio/mort.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v9.05/assets/images/accueil.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v9.05/assets/images/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v9.05/assets/images/pique.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v9.05/assets/images/route.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v9.05/assets/images/shuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v9.05/assets/sprites/anim.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v9.05/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v9.05/phaser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v9.05/states/Boot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v9.05/states/Game.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v9.05/states/GameOver.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v9.05/states/Menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v9.05/states/Preloader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.1/assets/audio/bgsound.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.1/assets/audio/mort.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.1/assets/css/fontLoader.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.1/assets/font/njnaruto.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.1/assets/images/accueil.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.1/assets/images/bar_pleine.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.1/assets/images/bar_vide.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.1/assets/images/bg1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.1/assets/images/bg2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.1/assets/images/bg3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.1/assets/images/bgGameOver.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.1/assets/images/bgMenu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.1/assets/images/bgWin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.1/assets/images/doublePique.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.1/assets/images/enemy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.1/assets/images/pique.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.1/assets/images/pont.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.1/assets/images/route.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.1/assets/images/shuriken.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.1/assets/images/terre.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.1/assets/sprites/anim.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.1/assets/sprites/animshuriken.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.1/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.1/phaser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.1/states/Boot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.1/states/Functions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.1/states/Game.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.1/states/GameOver.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.1/states/Menu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.1/states/Preloader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.1/states/Rules.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.1/states/Win.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.2/assets/audio/bgsound.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.2/assets/audio/mort.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.2/assets/css/fontLoader.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.2/assets/font/njnaruto.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.2/assets/images/accueil.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.2/assets/images/bar_pleine.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.2/assets/images/bar_vide.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.2/assets/images/bg1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.2/assets/images/bg2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.2/assets/images/bg3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.2/assets/images/bgGameOver.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.2/assets/images/bgMenu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.2/assets/images/bgWin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.2/assets/images/doublePique.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.2/assets/images/enemy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.2/assets/images/pique.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.2/assets/images/pont.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.2/assets/images/route.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.2/assets/images/shuriken.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.2/assets/images/terre.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.2/assets/images/triplePique.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.2/assets/sprites/anim.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.2/assets/sprites/animshuriken.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.2/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.2/phaser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.2/states/Boot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.2/states/Functions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.2/states/Game.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.2/states/GameOver.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.2/states/Menu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.2/states/Preloader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.2/states/Rules.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.2/states/Win.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.3/assets/audio/bgsound.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.3/assets/audio/mort.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.3/assets/css/fontLoader.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.3/assets/font/njnaruto.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.3/assets/images/accueil.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.3/assets/images/bar_pleine.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.3/assets/images/bar_vide.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.3/assets/images/bg1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.3/assets/images/bg2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.3/assets/images/bg3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.3/assets/images/bgGameOver.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.3/assets/images/bgMenu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.3/assets/images/bgWin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.3/assets/images/doublePique.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.3/assets/images/enemy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.3/assets/images/pique.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.3/assets/images/pont.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.3/assets/images/route.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.3/assets/images/shuriken.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.3/assets/images/terre.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.3/assets/images/triplePique.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.3/assets/sprites/anim.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.3/assets/sprites/animshuriken.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.3/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.3/phaser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.3/states/Boot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.3/states/Functions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.3/states/Game.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.3/states/GameOver.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.3/states/Menu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.3/states/Preloader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.3/states/Rules.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18.3/states/Win.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18/assets/audio/bgsound.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18/assets/audio/mort.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18/assets/css/fontLoader.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18/assets/font/njnaruto.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18/assets/images/accueil.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18/assets/images/bar_pleine.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18/assets/images/bar_vide.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18/assets/images/bg1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18/assets/images/bg2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18/assets/images/bg3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18/assets/images/bgGameOver.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18/assets/images/bgMenu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18/assets/images/bgWin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18/assets/images/doublePique.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18/assets/images/enemy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18/assets/images/pique.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18/assets/images/pont.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18/assets/images/route.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18/assets/images/shuriken.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18/assets/images/terre.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18/assets/sprites/anim.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18/assets/sprites/animshuriken.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18/phaser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18/states/Boot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18/states/Functions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18/states/Game.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18/states/GameOver.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18/states/Menu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18/states/Preloader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18/states/Rules.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/v18/states/Win.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v17/states/Game.js" afterPath="$PROJECT_DIR$/v17/states/Game.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v18/states/Rules.js" afterPath="$PROJECT_DIR$/v18/states/Rules.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v19.1/states/Functions.js" afterPath="$PROJECT_DIR$/v19.1/states/Functions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v19.2/states/Functions.js" afterPath="$PROJECT_DIR$/v19.2/states/Functions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v19.2/states/Game.js" afterPath="$PROJECT_DIR$/v19.2/states/Game.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v19.2/states/Preloader.js" afterPath="$PROJECT_DIR$/v19.2/states/Preloader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v19/states/GameOver.js" afterPath="$PROJECT_DIR$/v19/states/GameOver.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v19/states/Rules.js" afterPath="$PROJECT_DIR$/v19/states/Rules.js" />
     </list>
     <ignored path="javascript.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -514,18 +160,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/v18/index.html">
+      <file leaf-file-name="Functions.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/v19.1/states/Functions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="187" column="36" selection-start-line="187" selection-start-column="36" selection-end-line="187" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Game.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/v18/states/Game.js">
+      <file leaf-file-name="Menu.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/v19.2/states/Menu.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -534,23 +180,77 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Menu.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/v18/states/Menu.js">
+      <file leaf-file-name="Functions.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/v19.2/states/Functions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22758621">
-              <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="273" column="0" selection-start-line="273" selection-start-column="0" selection-end-line="273" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameOver.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/v19.2/states/GameOver.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Game.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/v19.2/states/Game.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7004471">
+              <caret line="115" column="5" selection-start-line="115" selection-start-column="5" selection-end-line="115" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Preloader.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/v19.2/states/Preloader.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Rules.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/v18/states/Rules.js">
+        <entry file="file://$PROJECT_DIR$/v19.2/states/Rules.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Boot.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/v19.2/states/Boot.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="anim.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/v19.2/assets/sprites/anim.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="animshuriken.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/v19.2/assets/sprites/animshuriken.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -569,12 +269,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/v2/index.html" />
-        <option value="$PROJECT_DIR$/v2/main.js" />
-        <option value="$PROJECT_DIR$/v3/index.html" />
-        <option value="$PROJECT_DIR$/v14/states/Game.js" />
-        <option value="$PROJECT_DIR$/v14/states/GameOver.js" />
-        <option value="$PROJECT_DIR$/v14/states/Functions.js" />
         <option value="$PROJECT_DIR$/v14.2/states/Game.js" />
         <option value="$PROJECT_DIR$/v14.3/states/Functions.js" />
         <option value="$PROJECT_DIR$/v14.3/states/Preloader.js" />
@@ -611,6 +305,21 @@
         <option value="$PROJECT_DIR$/v17.7/index.html" />
         <option value="$PROJECT_DIR$/v17.7/states/Rules.js" />
         <option value="$PROJECT_DIR$/v18/states/Rules.js" />
+        <option value="$PROJECT_DIR$/v18/states/Preloader.js" />
+        <option value="$PROJECT_DIR$/v18/states/Functions.js" />
+        <option value="$PROJECT_DIR$/v18/states/Game.js" />
+        <option value="$PROJECT_DIR$/v18.1/states/Preloader.js" />
+        <option value="$PROJECT_DIR$/v18.1/states/Game.js" />
+        <option value="$PROJECT_DIR$/v18.1/states/Functions.js" />
+        <option value="$PROJECT_DIR$/v18.2/states/Game.js" />
+        <option value="$PROJECT_DIR$/v18.3/states/Functions.js" />
+        <option value="$PROJECT_DIR$/v18.3/states/Game.js" />
+        <option value="$PROJECT_DIR$/v19/states/GameOver.js" />
+        <option value="$PROJECT_DIR$/v19/states/Rules.js" />
+        <option value="$PROJECT_DIR$/v19.1/states/Functions.js" />
+        <option value="$PROJECT_DIR$/v19.2/states/Preloader.js" />
+        <option value="$PROJECT_DIR$/v19.2/states/Functions.js" />
+        <option value="$PROJECT_DIR$/v19.2/states/Game.js" />
       </list>
     </option>
   </component>
@@ -652,6 +361,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -681,7 +391,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="v18" />
+              <option name="myItemId" value="v19.2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -695,7 +405,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="v18" />
+              <option name="myItemId" value="v19.2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -705,7 +415,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -714,12 +423,13 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/v2" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/v18/assets/images" />
       <recent name="$PROJECT_DIR$/v17.1/states" />
       <recent name="$PROJECT_DIR$/v14.3/assets/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/v2" />
     </key>
   </component>
   <component name="RunManager">
@@ -773,6 +483,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -783,7 +494,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -801,7 +511,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -826,11 +536,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6413793">
           <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/v18/index.html">
+    <entry file="file://$PROJECT_DIR$/v19/states/Win.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -838,7 +547,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/v18/states/Game.js">
+    <entry file="file://$PROJECT_DIR$/v19/states/Menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v19/states/Preloader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -846,18 +563,124 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/v18/states/Rules.js">
+    <entry file="file://$PROJECT_DIR$/v19/states/GameOver.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/v18/states/Menu.js">
+    <entry file="file://$PROJECT_DIR$/v19/states/Functions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22758621">
-          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v19/states/Game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v19/states/Rules.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v19.1/states/GameOver.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v19.1/states/Game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v19.1/states/Functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="187" column="36" selection-start-line="187" selection-start-column="36" selection-end-line="187" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v19.2/assets/sprites/animshuriken.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v19.2/assets/sprites/anim.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v19.2/states/Boot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v19.2/states/Menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v19.2/states/Functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="273" column="0" selection-start-line="273" selection-start-column="0" selection-end-line="273" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v19.2/states/GameOver.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v19.2/states/Preloader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v19.2/states/Rules.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v19.2/states/Game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7004471">
+          <caret line="115" column="5" selection-start-line="115" selection-start-column="5" selection-end-line="115" selection-end-column="5" />
           <folding />
         </state>
       </provider>
